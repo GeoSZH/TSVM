@@ -1,5 +1,5 @@
 # TSVM
-这里要首先感谢我的师姐和另一个上传了TSVM的方法的人(这里贴出原链接)，他们基于书上的逻辑用python实现了TSVM，但是我最近使用时发现手动调参可能是比较令人头疼的一件事，所以我想到能不能改进一下，创建了一个TSVM方法的estimator(基于sklearn)，这样就可以通过GridSearchCV来搜索最佳的参数，于是便有了初版的代码。如果有问题交流的话可联系sunzhihan20@mails.ucas.ac.cn
+这里要首先感谢我的师姐和另一个上传了TSVM的方法的人([这里贴出原链接](https://github.com/horcham/TSVM/blob/master/TSVM.py))，他们基于书上的逻辑用python实现了TSVM，但是我最近使用时发现手动调参可能是比较令人头疼的一件事，所以我想到能不能改进一下，创建了一个TSVM方法的estimator(基于sklearn)，这样就可以通过GridSearchCV来搜索最佳的参数，于是便有了初版的代码。如果有问题交流的话可联系sunzhihan20@mails.ucas.ac.cn
 
 #### Note：
 为什么叫初版是因为这个目前还不够完善，仍然需要输入之前把Label先调成{-1, +1}。最近暂无时间，后面会根据unique_labels来写一个代替这一步操作，请期待后续更新！
